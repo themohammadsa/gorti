@@ -30,7 +30,7 @@ export const HomePage = ({ selectedTabToHeader }) => {
 
           <a
             download
-            href="/src/gortiCSS/gorti_styles.zip"
+            href="https://gorti.netlify.app/styles.css"
             style={{
               textDecoration: "none"
             }}

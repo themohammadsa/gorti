@@ -20,7 +20,7 @@ export const Header = ({ selectedTabToHeader }) => {
           />
 
           <div className="flex-row column-header ">
-            <a href="https://github.com/">
+            <a href="https://gorti.netlify.app/styles.css">
               <img className="icon-github pad-right-1rem" src={github} />{" "}
             </a>
             <a
