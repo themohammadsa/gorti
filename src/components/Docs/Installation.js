@@ -14,7 +14,7 @@ export const Installation = () => {
         </p>
         <a
           download
-          href="/src/gortiCSS/gorti_styles.zip"
+          href="https://gorti.netlify.app/styles.css"
           style={{
             textDecoration: "none"
           }}
