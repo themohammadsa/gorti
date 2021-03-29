@@ -20,12 +20,12 @@ export const Header = ({ selectedTabToHeader }) => {
           />
 
           <div className="flex-row column-header ">
-            <a href="https://gorti.netlify.app/styles.css">
+            <a href="https://github.com/themohammadsa/gorti">
               <img className="icon-github pad-right-1rem" src={github} />{" "}
             </a>
             <a
               download
-              href="/src/gortiCSS/gorti_styles.zip"
+              href="https://gorti.netlify.app/styles.css"
               style={{
                 textDecoration: "none"
               }}
