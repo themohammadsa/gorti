@@ -15,7 +15,8 @@ export const NavBar = ({ selectTab }) => {
           style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 10px" }}
           className=" flex-row justify-space-between "
         >
-          <img src={logotext} className="logo-text pad1rem" />
+             <a href="https://gorti.netlify.app/">
+          <img src={logotext} className="logo-text pad1rem" /> </a>
           <span
             className="button-dismiss"
             onClick={handleToggle}

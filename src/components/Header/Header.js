@@ -9,9 +9,12 @@ export const Header = ({ selectedTabToHeader }) => {
       <header className="header ">
         <div className="header-content grid-header">
           <div className="flex-row column-header">
+               
+          <a href="https://gorti.netlify.app/">
             <img src={logo} className="logo " />
+          </a>
 
-            <img src={logotext} className="hide logo-text pad1rem" />
+          <a href="https://gorti.netlify.app/">            <img src={logotext} className="hide logo-text pad1rem" /> </a>
             <span className="dropdown">v1.0 </span>
           </div>
           <input
