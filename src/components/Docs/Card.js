@@ -76,6 +76,7 @@ export const Card = () => {
         <div class="flex-row justify-space-evenly  component-box">
           <div class="card-horizontal flex-row">
             <img
+              style={{ width: "10rem" }}
               class="card-image"
               src="https://www.w3schools.com/howto/img_avatar2.png"
               alt=""
