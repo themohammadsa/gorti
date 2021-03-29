@@ -7,7 +7,7 @@ Gorti: An elegant CSS library, to rapidly build, design and customize responsive
 
 ## Description 
 
-This project was made for the purpose of practising my CSS skills. I have tried replicating the usual day-to-day components that we mostly see on the internet. 
+This project was made for the purpose of practicing my CSS skills. I have tried replicating the usual day-to-day components that we mostly see on the internet. 
 The main aim was to use this CSS Component Library for my upcoming projects, so that I have a better grip on the CSS. 
 
 I have created a PR, I would love it if you could leave your reviews over there on what can be improved.
