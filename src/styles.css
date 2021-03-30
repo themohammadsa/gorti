@@ -715,7 +715,7 @@ input:invalid {
     grid-area: "side-bar";
     position: fixed;
     font-size: 1.1rem;
-    height: 100vh;
+    height: 78vh;
     overflow-y: auto;
     scrollbar-width: thin;
   }
@@ -768,6 +768,7 @@ input:invalid {
 
   .side-bar {
     padding-left: 5rem;
+    height: 100vh;
   }
   .header-content {
     padding-left: 5rem;
