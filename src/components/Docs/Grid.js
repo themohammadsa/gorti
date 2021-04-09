@@ -1,5 +1,4 @@
 export const Grid = () => {
-  console.log("test");
   return (
     <div className="component">
       <h1>Simplified Grid</h1>

@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export const Toast = () => {
   const [display, setDisplay] = useState("none");
-  console.log(display);
   return (
     <div className="component">
       <h1>Toast</h1>

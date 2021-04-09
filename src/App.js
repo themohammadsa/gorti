@@ -21,7 +21,6 @@ import { Header } from "./components/Header/Header";
 import { SideBar } from "./components/SideBar/SideBar";
 import { HomePage } from "./components/HomePage/HomePage";
 
-//test
 
 export default function App() {
   const componentObject = {
@@ -63,15 +62,6 @@ export default function App() {
         <Footer />
       </div>
 
-      {/* <div className="grid-view">
-        <div className="side-bar">
-          <SideBar selectTab={selectedTab} />
-        </div>
-        <div className="content">
-          {tab}
-          <Footer />
-        </div>
-      </div> */}
     </div>
   );
 }

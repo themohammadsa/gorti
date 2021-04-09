@@ -3,8 +3,8 @@ import ham from "./ham.png";
 import logotext from "./logotext.png";
 
 export const NavBar = ({ selectTab }) => {
-  const handleToggle = () => setNavbarOpen((prev) => !prev);
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const handleToggle = () => setNavbarOpen((prev) => !prev);
 
   return (
     <nav className="navBar">
@@ -15,8 +15,9 @@ export const NavBar = ({ selectTab }) => {
           style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 10px" }}
           className=" flex-row justify-space-between "
         >
-             <a href="https://gorti.netlify.app/">
-          <img src={logotext} className="logo-text pad1rem" /> </a>
+          <a href="https://gorti.netlify.app/">
+            <img src={logotext} className="logo-text pad1rem" />{" "}
+          </a>
           <span
             className="button-dismiss"
             onClick={handleToggle}

@@ -32,7 +32,6 @@ export const TextUtilities = () => {
           <p className="bold-text"> Bold Text.</p>
           <p className="light-bold-text"> Light Bold Text.</p>
           <p className="light-text"> Light Text.</p>
-
           <p className="grey-text"> Grey Text.</p>
         </div>
 

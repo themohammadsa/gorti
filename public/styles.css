@@ -59,9 +59,11 @@ p {
   background-color: white;
   z-index: 100;
 }
+
 .footer {
   margin: 5rem 0rem 3rem 0rem;
 }
+
 .footer-content {
   font-weight: 300;
   color: #023e8a;
@@ -82,6 +84,10 @@ p {
 .link-style {
   font-weight: 500;
   color: #023e8a;
+  text-decoration: none;
+}
+
+.decoration-none {
   text-decoration: none;
 }
 
@@ -239,6 +245,7 @@ p {
   color: rgb(59, 112, 255);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
+
 .button-secondary {
   background-color: white;
   color: #3b70ff;
@@ -294,9 +301,11 @@ p {
   font-size: 20px;
   cursor: pointer;
 }
+
 .pad1rem {
   padding: 1rem;
 }
+
 .icon-small {
   width: 20px;
   height: 20px;
@@ -331,6 +340,7 @@ p {
   object-fit: cover;
   flex-basis: 50%;
 }
+
 .card-text {
   padding: 1rem;
   flex-basis: 50%;
@@ -404,6 +414,7 @@ input:invalid {
   color: white;
   padding: 1rem;
 }
+
 .navigation-list a:hover {
   background-color: #bfdbfe;
   color: #023e8a;
@@ -730,11 +741,6 @@ input:invalid {
 }
 
 @media only screen and (min-width: 851px) {
-  /* .grid-view,
-  .header-content,
-  .footer-content {
-    margin: 0rem 15rem 0rem 10rem;
-  } */
   .logo {
     margin-left: 1.7rem;
     width: 35px;
@@ -745,6 +751,7 @@ input:invalid {
     opacity: 0.8;
     margin-top: 0.5rem;
   }
+
   .hide {
     display: block;
   }
@@ -762,6 +769,7 @@ input:invalid {
     grid-template-areas: "column-header column-header column-header";
     grid-template-columns: 3.5fr 2fr auto;
   }
+
   .column-header {
     margin-right: 1rem;
   }
@@ -769,10 +777,12 @@ input:invalid {
   .side-bar {
     padding-left: 5rem;
   }
+
   .header-content {
     padding-left: 5rem;
     padding-right: 10rem;
   }
+
   .content {
     margin-left: 5rem;
     padding-right: 10rem;
@@ -791,9 +801,11 @@ input:invalid {
   .homepage-text {
     width: 45rem;
   }
+
   .homepage-logo {
     width: 6rem;
   }
+
   .homepage-logo-text {
     width: 16rem;
   }
@@ -812,10 +824,12 @@ input:invalid {
   .side-bar {
     padding-left: 10rem;
   }
+
   .header-content {
     padding-left: 10rem;
     padding-right: 15rem;
   }
+
   .content {
     margin-left: 12rem;
     padding-right: 15rem;
@@ -826,6 +840,7 @@ input:invalid {
   .side-bar {
     display: none;
   }
+
   .content {
     margin: 6.5rem 3rem 0rem 3rem;
   }
