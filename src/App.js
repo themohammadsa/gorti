@@ -21,6 +21,8 @@ import { Header } from "./components/Header/Header";
 import { SideBar } from "./components/SideBar/SideBar";
 import { HomePage } from "./components/HomePage/HomePage";
 
+//test
+
 export default function App() {
   const componentObject = {
     Avatar: <Avatar />,
