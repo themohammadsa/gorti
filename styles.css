@@ -662,38 +662,3 @@ input:invalid {
 .hide-homepage {
   display: none;
 }
-
-@media only screen and (max-width: 851px) {
-  .homepage-content {
-    margin-top: -1rem;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .homepage-text {
-    width: 80%;
-    font-size: 60%;
-    overflow: hidden;
-  }
-
-  .homepage-text h1 {
-    font-weight: 400;
-  }
-
-  .homepage-logo {
-    width: 4rem;
-  }
-  .homepage-logo-text {
-    width: 8rem;
-  }
-  .button-homepage-primary,
-  .button-homepage-secondary {
-    font-size: 0.7rem;
-    margin: 1rem;
-    padding: 0.5rem;
-  }
-}
