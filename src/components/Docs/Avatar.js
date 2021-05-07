@@ -9,17 +9,17 @@ export const Avatar = () => {
 
       <div className="component-sub">
         <h3>Image Avatars</h3>
-        <div class="flex-row justify-space-evenly component-box">
+        <div className="flex-row justify-space-evenly component-box">
           <img
-            class="avatar-img shadow"
+            className="avatar-img shadow"
             src="https://material-ui.com/static/images/avatar/2.jpg"
           />
           <img
-            class="avatar-img shadow"
+            className="avatar-img shadow"
             src="https://avatars3.githubusercontent.com/u/100200?s=460&v=4"
           />
           <img
-            class="avatar-img shadow"
+            className="avatar-img shadow"
             src="https://miro.medium.com/max/1000/1*tv9pIQPhwumDnYBfCoapYg.jpeg"
           />
         </div>
@@ -32,10 +32,10 @@ export const Avatar = () => {
       </div>
       <div className="component-sub">
         <h3>Letter Avatars</h3>
-        <div class="flex-row justify-space-evenly  component-box">
-          <div class="avatar avatar-grey shadow">H</div>
-          <div class="avatar avatar-orange shadow">M</div>
-          <div class="avatar avatar-purple shadow">T</div>
+        <div className="flex-row justify-space-evenly  component-box">
+          <div className="avatar avatar-grey shadow">H</div>
+          <div className="avatar avatar-orange shadow">M</div>
+          <div className="avatar avatar-purple shadow">T</div>
         </div>
 
         <iframe
