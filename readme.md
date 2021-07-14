@@ -4,7 +4,8 @@
 
 **Gorti: An elegant CSS library, to rapidly build, design and customize responsive front-end framework.**
 This project was made for the purpose of practicing my CSS skills. I have tried replicating the usual day-to-day components that we mostly see on the internet. 
-The main aim was to use this CSS Component Library for my upcoming projects, so that I have a better grip on the CSS. 
+The main aim was to use this CSS Component Library for my upcoming projects, so that I have a better grip on the CSS.   
+  This is the first project out of five projects created by learning from [@neogcamp](https://neog.camp/) for [@roc8](https://www.roc8.careers/).
 
 Here's the link to the live demo:
 - [Live Demo](https://gorti.netlify.app/)
